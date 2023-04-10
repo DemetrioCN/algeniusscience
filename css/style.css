@@ -759,6 +759,7 @@ button {
     width: 100%;
     float: left;
     padding-bottom: 90px;
+    background-color: #CBE4DE;
 }
 .client_taital{
     width: 100%;
@@ -777,6 +778,10 @@ button {
     float: left;
     text-align: center;
 }
+.color-line {
+    border: 1px solid #98beb5; /* Sets the border width and color */
+    margin: 20px 0;
+  }
 .miller_text{
     width: 100%;
     float: left;
