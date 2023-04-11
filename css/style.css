@@ -788,6 +788,10 @@ button {
     margin: 15px 0;
     width: 70%;
   }
+  .line-education-topics {
+    border: 1px solid #98beb5; /* Sets the border width and color */
+    width: 100%;
+  }
   .miller_text {
     color: #002B5B;
   }
@@ -929,8 +933,31 @@ button {
 }
 
 
+/* 
+@import url("https://fonts.googleapis.com/css2?family=Literata");
 
+* {
+    font-family: "Literata";
+} */
 
+.toc-list, .toc-list ol {
+  list-style-type: none;
+}
 
+.toc-list {
+  padding: 0;
+}
 
-
+.toc-list ol {
+  padding-inline-start: 2ch;
+}
+.title {
+    font-size: 16px;
+    color: #000;
+}
+.title:hover {
+    color: red;
+}
+.toc-list-section{
+    margin-top: 10px;
+}
