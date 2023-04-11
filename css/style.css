@@ -764,10 +764,11 @@ button {
 .client_taital{
     width: 100%;
     float: left;
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
     color: #040100;
     font-weight: bold;
+    text-align: start;
 }
 .client_section2{
     width: 100%;
@@ -782,12 +783,24 @@ button {
     border: 1px solid #98beb5; /* Sets the border width and color */
     margin: 20px 0;
   }
-.miller_text{
+  .color-line-blog {
+    border: 1px solid #98beb5; /* Sets the border width and color */
+    margin: 15px 0;
+    width: 70%;
+  }
+  .miller_text {
+    color: #002B5B;
+  }
+.miller_text a{
     width: 100%;
     float: left;
-    font-size: 24px;
-    color: #030305;
+    font-size: 18px;
+    /* color: #030305; */
+    color: #002B5B;
     font-weight: 500;
+}
+.miller_text a:hover{
+    color: #030305;
 }
 .quote_icon{
     float: right;
@@ -795,9 +808,10 @@ button {
 .ipsum_text{
     width: 100%;
     float: left;
-    font-size: 16px;
+    font-size: 14px;
     color: #0b0b0c;
     margin-left: 0px;
+    margin-top: 5px;
 }
 .subscribe_section{
     width: 100%;
