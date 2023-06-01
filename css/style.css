@@ -806,7 +806,7 @@ button {
 .miller_text a{
     width: 100%;
     float: left;
-    font-size: 18px;
+    font-size: 20px;
     /* color: #030305; */
     color: #002B5B;
     font-weight: 500;
@@ -820,7 +820,7 @@ button {
 .ipsum_text{
     width: 100%;
     float: left;
-    font-size: 14px;
+    font-size: 16px;
     color: #0b0b0c;
     margin-left: 0px;
     margin-top: 5px;
@@ -969,4 +969,18 @@ button {
 }
 .toc-list-section{
     margin-top: 10px;
+}
+.blog_image {
+    width: 60%;
+    height: 50%;
+    float: left;
+    padding-bottom: 40px;   
+}
+.blog_text {
+    width: 80%;
+    float: left;
+    font-size: 18px;
+    color: #070A52;
+    margin-left: 0px;
+    font-weight: 300;
 }
